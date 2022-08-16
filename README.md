@@ -3,7 +3,7 @@
 ## Description
 
 This repo demostrates the refactoring of code (HTML and CSS) for Horiseon's website. As a Marketing Agency, Horiseon had requested that I
-alter the source code of their website to abide by accesibility standards. In doing so, their website is better optimized for people with disabilities and improves search engine optimization.
+alter the source code of their website to abide by accesibility standards. In doing so, their website is better optimized for people with disabilities and improves search engine optimization. In addition, I've also added useful comments in the source code to help future developers easily understand the new code.
 
 ## Table of Contents
 
