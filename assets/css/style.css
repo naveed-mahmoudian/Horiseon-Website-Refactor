@@ -1,10 +1,11 @@
-/* Remove Padding and Margin from all elements */
+/* Remove Padding, Margin, and specifies height and width behavior for all elements */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Body styling */
 body {
     background-color: #d9dcd6;
 }
@@ -43,7 +44,7 @@ body {
     margin-left: 25px;
 }
 
-/* Main image styling */
+/* Main Hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -118,7 +119,7 @@ body {
     font-size: 20px;
 }
 
-/* Misc styling of a and p elements. As well as floating right and left. */
+/* Misc styling of a and p elements. As well as define floating right and left classes. */
 a {
     color: #ffffff;
     text-decoration: none;
