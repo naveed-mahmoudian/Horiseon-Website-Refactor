@@ -9,6 +9,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Header styling */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -77,6 +78,26 @@ p {
     margin-left: 20px;
 }
 
+/* The below stlyes article content as a whole, img elements, and h2 elements respectively */
+.content-article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-article img {
+    max-height: 200px;
+}
+
+.content-article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* The below styles the Benefits sidebar as a whole, each section, h3 elements, and img elements respectively */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,24 +125,7 @@ p {
     max-width: 150px;
 }
 
-.content-article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-article img {
-    max-height: 200px;
-}
-
-.content-article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* Footer styling as a whole, and footer h2 element respectively */
 .footer {
     padding: 30px;
     clear: both;
