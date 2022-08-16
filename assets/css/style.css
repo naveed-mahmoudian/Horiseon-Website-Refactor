@@ -17,7 +17,6 @@ body {
     color: #ffffff;
 }
 
-/* Makes the "seo" in the h1 element slightly darker */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -44,15 +43,7 @@ body {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-p {
-    font-size: 16px;
-}
-
+/* Main Hero image styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -62,23 +53,13 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
+/* The below stlyes article content as a whole, each article, img elements, and h2 elements respectively */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-/* The below stlyes article content as a whole, img elements, and h2 elements respectively */
 .content-article {
     margin-bottom: 20px;
     padding: 50px;
@@ -135,4 +116,24 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+
+/* Misc styling of a and p elements. As well as floating right and left. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
